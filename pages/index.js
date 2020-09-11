@@ -1,3 +1,4 @@
+import Layout from "../app/shared/Layout";
 export default function Index() {
-  return <h1>Hello world</h1>;
+  return <Layout>Hello world</Layout>;
 }

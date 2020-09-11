@@ -2,7 +2,6 @@ import React from "react";
 import TextField from "@material-ui/core/TextField";
 import { makeStyles } from "@material-ui/core/styles";
 import Link from "next/link";
-import Layout from "../../app/shared/Layout";
 const useStyles = makeStyles((theme) => ({
   form: {
     "& .MuiTextField-root": {
@@ -17,7 +16,6 @@ export default function FormPropsTextFields() {
   const classes = useStyles();
 
   return (
-    <Layout>
       <form className={classes.form} noValidate autoComplete="off">
         <div>
           <TextField
@@ -40,6 +38,5 @@ export default function FormPropsTextFields() {
           <Link href="/auth/signup">signup</Link>{" "}
         </h2>
       </form>
-    </Layout>
   );
 }

@@ -1,4 +1,3 @@
-import Layout from "../../app/shared/Layout";
 import { connect } from "react-redux";
 import { useStyles } from "../../app/css/PlaceCss";
 import clsx from "clsx";
@@ -24,7 +23,6 @@ const UserID = ({ place }) => {
     setExpanded(!expanded);
   };
   return (
-    <Layout>
       <Card className={classes.root}>
         <CardHeader
           avatar={<Avatar aria-label="recipe" src={place.creatorImg}></Avatar>}
@@ -73,7 +71,6 @@ const UserID = ({ place }) => {
           </CardContent>
         </Collapse>
       </Card>
-    </Layout>
   );
 };
 

@@ -7,14 +7,16 @@ import ListSubheader from "@material-ui/core/ListSubheader";
 import IconButton from "@material-ui/core/IconButton";
 import StarIcon from "@material-ui/icons/Star";
 import Avatar from "@material-ui/core/Avatar";
-import { connect } from "react-redux";
-import { getPlace } from "../../confg/reducer";
-const TitlebarGridList = ({ items, history, getPlace }) => {
+import { getPost } from "../../confg/reducer";
+import {useDispatch} from 'react-redux'
+
+const TitlebarGridList = ({ items, history }) => {
   const classes = useStyles();
   const date = new Date().getFullYear();
+  const dispatch=useDispatch()
   const placeHandler = (item) => {
     history.push(`/users/${item.id}`);
-    getPlace(item);
+    dispatch(getPost(item));
   };
   return (
     <div className={classes.imageList}>
@@ -48,4 +50,4 @@ const TitlebarGridList = ({ items, history, getPlace }) => {
   );
 };
 
-export default connect(null, { getPlace })(TitlebarGridList);
+export default TitlebarGridList;

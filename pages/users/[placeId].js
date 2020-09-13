@@ -15,6 +15,8 @@ import ShareIcon from "@material-ui/icons/Share";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import GridItem from "../../app/shared/Comment";
+import { createStructuredSelector } from "reselect";
+import { placeId } from "../../confg/selector";
 
 const UserID = ({ place }) => {
   const classes = useStyles();
@@ -74,7 +76,7 @@ const UserID = ({ place }) => {
   );
 };
 
-const mapStateToProps = (state) => ({
-  place: state.root.place
+const mapStateToProps = createStructuredSelector({
+  place: placeId
 });
 export default connect(mapStateToProps)(UserID);

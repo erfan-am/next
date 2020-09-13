@@ -12,12 +12,14 @@ export const DUMY_IMAGES = [
     comments: [
       {
         name: "ali",
+        id:'a',
         img:
           "https://www.dhresource.com/0x0s/f2-albu-g5-M00-95-DB-rBVaI1lM0FiATYLpAABn6YHdvzw874.jpg/women-girs-natrual-long-wavy-full-head-wig.jpg",
         comment: "wowwww"
       },
       {
         name: "faranak",
+        id:'b',
         img:
           "https://pm1.narvii.com/7593/b3c3397951d3698c1e2b0fbccc3a020ba8bdba4dr1-720-737v2_uhq.jpg",
         comment: "howw its greate pic"
@@ -37,12 +39,14 @@ export const DUMY_IMAGES = [
     comments: [
       {
         name: "negar",
+        id:'c',
         img:
           "https://1.bp.blogspot.com/-dZLiQaXgPew/X082k2HhFeI/AAAAAAAAEA4/WKOlXFNH77Y-3AsO0Ie-aiK7oVUrQlC4gCNcBGAsYHQ/s640/alexandru-zdrobau-BGz8vO3pK8k-unsplash.jpg",
         comment: "greate house"
       },
       {
         name: "erfan",
+        id:'d',
         img:
           "https://i.pinimg.com/originals/25/6b/0d/256b0d4ba14aac11555e09548ee09f9d.jpg",
         comment: "god kll me"

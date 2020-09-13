@@ -43,7 +43,8 @@ const UserID = ({ place }) => {
         />
         <CardContent>
           <Typography variant="body2" color="textSecondary" component="p">
-            <h2>{place.place}</h2> is the best place for trip ntal actions
+          
+           is the best place for trip ntal actions
             within the card are explicitly called out using icons, text, and UI
             controls, typically placed at the bottom of the card.
           </Typography>

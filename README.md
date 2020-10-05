@@ -30,4 +30,4 @@
     <a href="https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd">
         REDUX_DEVTOOLS</a> 
     </h5>
-    for get mor information about devtools please click <a href="https://github.com/zalmoxisus/redux-devtools-extension">HERE</a>
+    for get more information about devtools please click <a href="https://github.com/zalmoxisus/redux-devtools-extension">HERE</a>
